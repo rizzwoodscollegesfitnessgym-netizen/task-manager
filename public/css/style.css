@@ -1,0 +1,235 @@
+/* --------------------------------
+   General Page
+-------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+
+/* --------------------------------
+   Main Container
+-------------------------------- */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+/* --------------------------------
+   Headings
+-------------------------------- */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+
+/* --------------------------------
+   Links
+-------------------------------- */
+
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000000;
+}
+
+
+/* --------------------------------
+   Normal Buttons
+-------------------------------- */
+
+.button {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #555555;
+    border-color: #555555;
+    text-decoration: none;
+}
+
+
+/* --------------------------------
+   Delete Button
+-------------------------------- */
+
+.button-danger {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.button-danger:hover {
+    background-color: #a93226;
+    border-color: #a93226;
+}
+
+
+/* --------------------------------
+   Task Card
+-------------------------------- */
+
+.task {
+    border: 1px solid #dddddd;
+    padding: 18px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.task p {
+    margin: 8px 0;
+}
+
+
+/* --------------------------------
+   Status
+-------------------------------- */
+
+.status {
+    display: inline-block;
+    padding: 4px 9px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* Pending = Orange */
+
+.status-pending {
+    color: #9a6700;
+    background-color: #fff3cd;
+    border: 1px solid #ffe69c;
+}
+
+
+/* Completed = Green */
+
+.status-completed {
+    color: #146c43;
+    background-color: #d1e7dd;
+    border: 1px solid #a3cfbb;
+}
+
+
+/* --------------------------------
+   Due Date
+-------------------------------- */
+
+.due-date {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+
+/* --------------------------------
+   Task Actions
+-------------------------------- */
+
+.task-actions {
+    margin-top: 18px;
+}
+
+.task-actions a {
+    margin-right: 10px;
+}
+
+
+/* --------------------------------
+   No Tasks Message
+-------------------------------- */
+
+.no-tasks {
+    color: #777777;
+    font-style: italic;
+}
+
+
+/* --------------------------------
+   Forms
+-------------------------------- */
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+
+/* --------------------------------
+   Input Fields
+-------------------------------- */
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #888888;
+}
+
+
+/* --------------------------------
+   Textarea
+-------------------------------- */
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+/* --------------------------------
+   Horizontal Line
+-------------------------------- */
+
+hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 20px 0;
+}
