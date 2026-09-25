@@ -56,3 +56,45 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Task Manager
+
+## Project Information
+
+**Project Code:** WST21-PM-2026-SF  
+**Student Name:** Rogelio G. Cabangca II  
+**Course & Year:** BSIT - 2nd Year  
+**Database Used:** SQLite
+
+## Features
+
+- Add Task
+- View Tasks
+- Edit Task
+- Delete Task
+- Update Status
+
+## Additional Features
+
+- Set a due date for each task
+- Display task status as Pending or Completed
+- Task details page
+- Simple and clean user interface
+- Delete task functionality
+- Form validation
+
+## Description
+
+This is a Laravel-based Task Manager application developed as a school project.
+
+The application allows users to create, view, edit, update, and delete tasks. Each task can have a title, description, due date, and status.
+
+## Technologies Used
+
+- Laravel
+- PHP
+- SQLite
+- Blade
+- HTML
+- CSS
+- Git
+- GitHub
